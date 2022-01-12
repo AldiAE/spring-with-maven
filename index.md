@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+## Spring Boot Api 
 
-You can use the [editor on GitHub](https://github.com/AldiAE/spring-with-maven/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Aplikasi ini dibuat menggunakan bahasa kotlin dan untuk databasenya menggunakan postgresql
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Data yang dihasilkan belupa format json [localhost](http://localhost:8080) untuk contoh hasilnya, bisa di cek di Markdown files.
 
-### Markdown
+### Markdown Files
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Berikut hasil output ketika aplikasi dijalankan
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- GET
+[Link](http://localhost:8080/api/personalweb/homes)
+{
+    "code": 200,
+    "status": "OK",
+    "data": [
+        {
+            "id": "ae1ff3b0-0853-4838-a3b2-e9052c9eaab1",
+            "name": "Aldi Aulia Rosyad",
+            "short_about": "Hello gaes. my name is aldi. im from indonesia",
+            "createdAt": "2022-01-12T03:56:35.436+00:00",
+            "updatedAt": "2022-01-12T03:56:35.436+00:00"
+        },
+        {
+            "id": "e86fa3e3-b8d1-4f44-98a5-73692ca8f949",
+            "name": "Tsaniya Rosyidatul Mufidah",
+            "short_about": "Hello gaes. my name is tsaniya. im from indonesia",
+            "createdAt": "2022-01-12T04:02:04.374+00:00",
+            "updatedAt": "2022-01-12T04:02:04.374+00:00"
+        }
+    ]
+}
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Untuk tahu portfolio lain bisa di lihat web [aldiae.github.io](https://aldiae.github.io/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AldiAE/spring-with-maven/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Ada trouble saat menjalankan aplikasi ? silahkan submit di [issues](https://github.com/AldiAE/spring-with-maven/issues) atau [email](https://e-mailer.link/100174719334) dan semoga dapat berguna bagi yang semua.
