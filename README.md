@@ -39,4 +39,4 @@ Untuk tahu portfolio lain bisa di lihat web [aldiae.github.io](https://aldiae.gi
 
 ### Support or Contact
 
-Ada trouble saat menjalankan aplikasi ? silahkan submit di [issues](https://github.com/AldiAE/spring-with-maven/issues) atau [email](https://e-mailer.link/100174719334) dan semoga dapat berguna bagi yang semua.
+Ada trouble saat menjalankan aplikasi? silahkan submit di [issues](https://github.com/AldiAE/spring-with-maven/issues) atau [email](https://e-mailer.link/100174719334) dan semoga dapat berguna bagi yang semua.
